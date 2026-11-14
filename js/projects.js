@@ -14,10 +14,10 @@ const projects = [
   {
     title: "CST",
     year: "2024",
-    text: "Workload system for Cloud Streaming Technology. Schedules, shift swaps, gift hours, vacations. The site is up, it just asks you to log in.",
+    text: "Workload system for Cloud Streaming Technology. Schedules, shift swaps, gift hours, vacations. The website is private, so I show it myself when someone wants to see it.",
     stack: "Java, Spring Boot, JavaScript, Flutter",
     repo: "https://github.com/blackwhissh/cst-frontend",
-    demo: "https://cstgeo.ge"
+    demo: ""
   }
 
   // {
