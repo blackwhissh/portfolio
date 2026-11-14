@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: #121210;
+  color: #ebe7df;
+}
+
+::selection {
+  background: #2c3d55;
+  color: #ebe7df;
+}
+
+:focus-visible {
+  outline: 2px solid #d5e4ff;
+  outline-offset: 3px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}

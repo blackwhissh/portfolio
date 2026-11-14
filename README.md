@@ -1,24 +1,11 @@
 # portfolio
 
-personal site. the project list is `js/projects.js` — new stuff goes at the top.
+personal site. words, projects, and jobs live in `data/content.ts`.
 
-```js
-{
-  title: "something new",
-  year: "2026",
-  text: "one or two sentences.",
-  stack: "Java",
-  repo: "https://github.com/blackwhissh/something-new",
-  demo: ""
-}
-```
-
-`demo` can stay empty.
-
-to look at it locally:
+`linkedin` stays blank until you paste a url. `cvUrl` stays blank until you drop a pdf in `public/` and set it to `/cv.pdf`. empty `repo` or `demo` just hides that link.
 
 ```
-python -m http.server 5500
+npm run dev
 ```
 
-then open http://localhost:5500
+then open http://localhost:3000
