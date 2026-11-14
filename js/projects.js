@@ -12,20 +12,12 @@ const projects = [
     demo: ""
   },
   {
-    title: "Gym microservice",
+    title: "CST",
     year: "2024",
-    text: "EPAM task. Took a gym app and split it into services.",
-    stack: "Java",
-    repo: "https://github.com/blackwhissh/gym-microservice",
-    demo: ""
-  },
-  {
-    title: "Calculator API",
-    year: "2023",
-    text: "Small calculator API. The usual operations, plus factorial.",
-    stack: "Java",
-    repo: "https://github.com/blackwhissh/Calculator-API",
-    demo: ""
+    text: "Workload system for Cloud Streaming Technology. Schedules, shift swaps, gift hours, vacations. The site is up, it just asks you to log in.",
+    stack: "Java, Spring Boot, JavaScript, Flutter",
+    repo: "https://github.com/blackwhissh/cst-frontend",
+    demo: "https://cstgeo.ge"
   }
 
   // {
